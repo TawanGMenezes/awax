@@ -48,7 +48,7 @@ header{
     display: flex;
   }
 
-  .menu li a{
+.menu li a{
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
@@ -59,8 +59,6 @@ header{
     display:flex;
     height: 100px;
     align-items: center;
-
-    
   }
 
 .menu li a:hover,
@@ -255,3 +253,49 @@ header{
 .section-service:first-child{
   border-left: 1px solid #b28756 ;
 }
+
+
+/*CSS AREA ESPECIFICA PROJECTS  */
+
+.section-projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-projects--filters{
+  background-color: #ededed;
+  display: inline-block;
+  border-radius: 20px;
+  text-transform:uppercase ;
+  padding: 0px 30px;
+  border: 1px solid #cfcfcf;
+  
+}
+
+.section-projects--filters li,
+.section-projects-- ul{
+  list-style: none;
+  
+}
+
+.section-projects--filters li{
+  display: inline-block;
+  padding: 10px;
+  border-left: 1px solid #cfcfcf;;
+  border-bottom: 3px solid #ededed;
+  font-size: 13px;
+  cursor: pointer;
+
+
+}
+
+.section-projects--filters li:first-child{
+  border-left: 0px;
+}
+
+.section-projects--filters li:hover,
+.section-projects--filters .active{
+  border-bottom: 3px solid #b28756;
+}
+
