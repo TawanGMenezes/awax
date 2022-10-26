@@ -181,6 +181,10 @@ header{
   color: #000000;
 }
 
+.default.light .section-title{
+  font-weight: bold;
+}
+
 .default.dark{
   background-color: #000;
 }
@@ -315,12 +319,12 @@ header{
 .section-projects--photoarea{
   margin: 10px;
   width: 260px;
-  height: 163px;
-}
+  height: 160px;
+  }
 
 .section-projects--photoarea img{
   width: inherit;
-  width: inherit;
+  height: inherit;
 }
 
 .section-projects--photoinfo{
@@ -450,4 +454,99 @@ height: auto;
 
 .section-team--social a:hover{
   background-color: #b28756;
+}
+
+
+/*CSS ESPECIFICO CLIENTS */
+
+.clients{
+background-color: #f7f7f7;
+}
+.section-clients{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.section-client--avatar{
+  width: 150px;
+  height: auto; 
+}
+
+.section-client--name{
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.section-client--role{
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: #000;
+}
+.section-clients img{
+  margin: 20px;
+}
+
+.section-client--testimonial{
+  max-width: 880px;
+  margin: auto;
+  text-align: center;
+  line-height: 25px;
+}
+.clients .sliders-pointers{
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.clients .pointer{
+  height: 15px;
+  width: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.clients .pointer.active{
+  background-color: #b28756;
+}
+
+
+
+
+/*CSS ESPECIFICO PARA BRANDS */
+
+.brands{
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.brands .section-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.brands .brand{
+  margin:0px 25px;
+}
+
+/*CSS AREA ESPECIFICA PRICES */
+
+.section-price{
+  overflow: hidden;
+  max-width: 880px;
+  margin: auto;
 }
