@@ -205,19 +205,6 @@ header {
   color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*CSS ÁREA ESPECÍFICA ABOUT US*/
 
 .section-aboutus {
@@ -582,9 +569,67 @@ header {
 }
 
 .section-price .price {
+  align-items: center;
+  justify-content: center;
   width: 230px;
   min-height: 300px;
-  display: inline-block;
+  display: inline-flex;
   background-color: #fff;
   margin-right: 20px;
 }
+
+
+.pricearea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricearea-model,
+.pricearea-frequency{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.pricearea-model{
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.pricearea-cash {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pricearea-frequency {
+  font-size: 10px;
+  color: #c4c4c4;
+  margin-bottom: 10px;
+}
+.pricearea-desc{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.pricearea-desc p{
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 12px;
+  text-align: center;
+  color: #7e7e7e;
+
+}
+
+.butom.choose{
+  background-color:#373737;
+}
+
+.butom.choose:hover,
+.butom.choose.active{
+  background-color:#b28756;
+}
+
+/* CSS ESPÉCIFICOS BOOKS */
