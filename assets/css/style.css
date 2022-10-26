@@ -625,6 +625,7 @@ header {
 
 .butom.choose{
   background-color:#373737;
+  margin-bottom: 20px;
 }
 
 .butom.choose:hover,
@@ -633,3 +634,105 @@ header {
 }
 
 /* CSS ESPÉCIFICOS BOOKS */
+
+.section-body.books{
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-books{
+  display: flex;
+}
+.books .sliders-pointers {
+  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.books .pointer {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.books .pointer.active {
+  background-color: #b28756;
+}
+/* 
+.section-books--content{
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 40px;
+}
+
+.books .sliders-pointers {
+  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.books .pointer {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #b28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.books .pointer.active {
+  background-color: #b28756;
+}
+
+ */
+
+
+ /* CSS ESPECIFICO SOME FACTS */
+
+.section-facts {
+  display: flex;
+}
+
+.section-fact {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+
+}
+.section-fact h2 {
+  color: #b28756;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-fact h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.stick{
+  display: inline-flex;
+  height: 2px;
+  width: 20px;
+  background-color: #999;
+}
+.section-fact p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+
+
