@@ -482,14 +482,14 @@ header {
 
 .section-client--name {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
   margin-top: 25px;
 }
 
 .section-client--role {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   margin-top: 5px;
   color: #000;
 }
@@ -633,6 +633,11 @@ header {
   background-color:#b28756;
 }
 
+
+
+
+
+
 /* CSS ESPÉCIFICOS BOOKS */
 
 .section-body.books{
@@ -645,6 +650,29 @@ header {
 .section-books{
   display: flex;
 }
+
+.section-book--content{
+  margin-left: 50px;
+}
+.section-book--content p{
+  font-size: 14px;
+  margin-left: 65px;
+  line-height: 25px;
+  color: #8f8f8f;
+  padding-bottom: 30px;
+  
+}
+.section-book--content .order{
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.section-book--content img{
+  margin-right: 25px;
+}
+
 .books .sliders-pointers {
   margin-top: 30px;
   height: 50px;
@@ -738,6 +766,9 @@ header {
 
  /* CSS ESPECIFICO TELL ABOUT US */
 
+.default.light.us{
+  border-bottom: 1px solid #cfcfcf;
+}
 .us{
   display: flex;
   align-items: center;
@@ -758,7 +789,7 @@ header {
 .section-body.us a{
   width: 30px;
   height: 30px;
-  margin-left: 20px;
+  margin-left: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -785,4 +816,49 @@ header {
   background-color: #b71b29;
 }
 
+
+/* CSS ESPECIFICO CONTACT US */ 
+
+.default.light.contact{
+  background-color: #f7f7f7;
+}
+.section-body.contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.section-contact form{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+.section-contact .formulario input[placeholder]{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.section-contact .formulario input{
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid #aeaeae;
+  margin-left: 20px;
+  background-color: inherit;
+  max-width: 1080px;
+}
+
+.formulario #name,
+.formulario #email{
+  width: 530px;
+  color: rebeccapurple;
+}
+
+.formulario #subject,
+.formulario #menssage{
+  width: 1080px;
+  margin-top: 40px;
+}
 
