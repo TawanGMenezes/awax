@@ -299,3 +299,48 @@ header{
   border-bottom: 3px solid #b28756;
 }
 
+.section-projects--photos{
+  width: 100vw;
+  max-width: 1140px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.section-projects--photo{
+  width: 280px;
+}
+
+.section-projects--photoarea{
+  margin: 10px;
+  width: 260px;
+  height: 163px;
+}
+
+.section-projects--photoarea img{
+  width: inherit;
+  width: inherit;
+}
+
+.section-projects--photoinfo{
+  position: absolute;
+  background-color: rgba(0, 0, 0,0.5);
+  width: inherit;
+  height: inherit;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.section-projects--photoinfo h5{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo{
+  display: flex;
+}
