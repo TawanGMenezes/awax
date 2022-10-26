@@ -736,3 +736,53 @@ header {
 }
 
 
+ /* CSS ESPECIFICO TELL ABOUT US */
+
+.us{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.minitext{
+  font-size: 12px;
+  color: #afafaf;
+  margin-left: 3px;
+  font-weight: 600;
+}
+.tellabout{
+  font-size: 16px;
+  color: #afafaf;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.section-body.us a{
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.icontw{
+  background-color: #33c4f0;
+}
+
+.iconlink{
+  background-color: #137cb5;
+}
+
+.iconface{
+  background-color: #33629a;
+}
+
+.icongg{
+  background-color: #e64236;
+}
+
+.iconpin{
+  background-color: #b71b29;
+}
+
+
