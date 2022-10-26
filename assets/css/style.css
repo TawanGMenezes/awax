@@ -1,20 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
-body{
+
+body {
   font-family: 'Montserrat', 'Arial';
   font-size: 13px;
   overflow-x: hidden;
 }
-header{
+
+header {
   height: 100px;
   background-color: #000000;
   color: #fff;
 }
 
-.header{
+.header {
   display: flex;
   max-width: 1140px;
   height: 100px;
@@ -22,64 +24,68 @@ header{
   align-items: center;
 }
 
-.logo{
+.logo {
   width: 100px;
-  
+
 }
-.logoimg{
+
+.logoimg {
   width: 80px;
   height: 80px;
   background-color: #b28756;
   border-radius: 40px;
 }
-.menu{
+
+.menu {
   display: flex;
   flex: 1;
   justify-content: flex-end;
-  }
-  
+}
 
-  .menu ul,
-  .menu li{
-    list-style: none;
-  }
 
-  .menu ul{
-    display: flex;
-  }
+.menu ul,
+.menu li {
+  list-style: none;
+}
 
-.menu li a{
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #fff;
-    border-bottom: 5px solid #000000;
-    display:flex;
-    height: 100px;
-    align-items: center;
-  }
+.menu ul {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 5px solid #000000;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
 
 .menu li a:hover,
-.menu .active a{
+.menu .active a {
   border-bottom: 5px solid #b28756;
   color: #7e7a7aea;
 }
-.butom{
+
+.butom {
   display: inline-block;
   padding: 10px 30px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
-  background-color: #b28756 ;
+  background-color: #b28756;
   text-decoration: none;
   color: #fff;
   margin-top: 30px;
   border-radius: 20px;
 }
-.banner{
-  background-color: #333 ;
+
+.banner {
+  background-color: #333;
   height: calc(100vh - 100px);
   background-image: url('../images/bg.jpg');
   background-size: cover;
@@ -87,42 +93,45 @@ header{
   overflow: hidden;
 }
 
-.banner .sliders{
-  width:1000vh ;
+.banner .sliders {
+  width: 1000vh;
   height: 100%;
 }
 
-.banner .slide{
+.banner .slide {
   width: 100vw;
   height: 100%;
   display: inline-block;
-  background-color: rgba(0, 0, 0,0.75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
-.banner .slidearea{
+.banner .slidearea {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff; 
+  color: #fff;
   height: 100%;
 }
 
-.slidearea h1{
-  font-size: 50px  ;
+.slidearea h1 {
+  font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.slidearea span{
+
+.slidearea span {
   color: #b28756;
 }
-.slidearea h2{
+
+.slidearea h2 {
   margin-top: 20px;
-  font-size: 17px  ;
+  font-size: 17px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.banner .sliders-pointers{
+
+.banner .sliders-pointers {
   width: 100vw;
   height: 20px;
   position: absolute;
@@ -132,7 +141,7 @@ header{
   align-items: center;
 }
 
-.banner .pointer{
+.banner .pointer {
   height: 15px;
   width: 15px;
   border: 2px solid #b28756;
@@ -142,57 +151,59 @@ header{
   cursor: pointer;
 }
 
-.banner .pointer.active{
+.banner .pointer.active {
   background-color: #b28756;
 }
 
-.default{
+.default {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .default .section-title,
-.default .section-desc{
+.default .section-desc {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
 }
-.default .section-title{
+
+.default .section-title {
   font-size: 20px;
 }
 
-.default .section-desc{
+.default .section-desc {
   font-size: 12px;
   color: #ccc;
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
-.default .section-body{
+.default .section-body {
   margin: auto;
   max-width: 1140px;
 }
 
-.default.light{
+.default.light {
   background-color: #f7f7f7;
 }
 
 .default.light .section-title,
-.default.light .section-body{
+.default.light .section-body {
   color: #000000;
 }
 
-.default.light .section-title{
+.default.light .section-title {
   font-weight: bold;
 }
 
-.default.dark{
+.default.dark {
   background-color: #000;
 }
 
 .default.dark .section-title,
-.default.dark .section-body{
+.default.dark .section-body {
   color: #fff;
-} 
+}
 
 
 
@@ -209,34 +220,38 @@ header{
 
 /*CSS ÁREA ESPECÍFICA ABOUT US*/
 
-.section-aboutus{
+.section-aboutus {
   display: flex;
 }
-.section-aboutus--left{
+
+.section-aboutus--left {
   flex: 1;
-  
+
 }
-.section-aboutus--left p{
+
+.section-aboutus--left p {
   font-size: 14px;
   line-height: 25px;
 }
-.section-aboutus--right{
+
+.section-aboutus--right {
   width: 520px;
   text-align: center;
-  
+
 }
-.section-aboutus--right img{
+
+.section-aboutus--right img {
   width: 480px;
   box-shadow: 3px 5px 10px #333;
 }
 
 /*CSS AREA ESPECIFICA SERVICES */
 
-.section-services{
+.section-services {
   display: flex;
 }
 
-.section-service{
+.section-service {
   flex: 1;
   border-right: 1px solid #b28756;
   text-align: center;
@@ -244,49 +259,52 @@ header{
 
 }
 
-.section-service h4{
+.section-service h4 {
   margin-top: 20px;
   text-transform: uppercase;
   font-size: 15px;
 }
-.section-service p{
+
+.section-service p {
   margin-top: 10px;
   font-size: 13px;
   color: #999;
 }
-.section-service:first-child{
-  border-left: 1px solid #b28756 ;
+
+.section-service:first-child {
+  border-left: 1px solid #b28756;
 }
 
 
 /*CSS AREA ESPECIFICA PROJECTS  */
 
-.section-projects{
+.section-projects {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-projects--filters{
+.section-projects--filters {
   background-color: #ededed;
   display: inline-block;
   border-radius: 20px;
-  text-transform:uppercase ;
+  text-transform: uppercase;
   padding: 0px 30px;
   border: 1px solid #cfcfcf;
-  
+
 }
 
 .section-projects--filters li,
-.section-projects-- ul{
+.section-projects-- ul {
   list-style: none;
-  
+
 }
 
-.section-projects--filters li{
+.section-projects--filters li {
   display: inline-block;
   padding: 10px;
-  border-left: 1px solid #cfcfcf;;
+  border-left: 1px solid #cfcfcf;
+  ;
   border-bottom: 3px solid #ededed;
   font-size: 13px;
   cursor: pointer;
@@ -294,42 +312,42 @@ header{
 
 }
 
-.section-projects--filters li:first-child{
+.section-projects--filters li:first-child {
   border-left: 0px;
 }
 
 .section-projects--filters li:hover,
-.section-projects--filters .active{
+.section-projects--filters .active {
   border-bottom: 3px solid #b28756;
 }
 
-.section-projects--photos{
+.section-projects--photos {
   width: 100vw;
   max-width: 1140px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px;
 }
 
-.section-projects--photo{
+.section-projects--photo {
   width: 280px;
 }
 
-.section-projects--photoarea{
+.section-projects--photoarea {
   margin: 10px;
   width: 260px;
   height: 160px;
-  }
+}
 
-.section-projects--photoarea img{
+.section-projects--photoarea img {
   width: inherit;
   height: inherit;
 }
 
-.section-projects--photoinfo{
+.section-projects--photoinfo {
   position: absolute;
-  background-color: rgba(0, 0, 0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: inherit;
   height: inherit;
   display: none;
@@ -339,13 +357,13 @@ header{
   color: #fff;
 }
 
-.section-projects--photoinfo h5{
+.section-projects--photoinfo h5 {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.section-projects--photoarea:hover .section-projects--photoinfo{
+.section-projects--photoarea:hover .section-projects--photoinfo {
   display: flex;
 }
 
@@ -353,31 +371,31 @@ header{
 
 /*CSS ESPECIFICO OUR TEAM */
 
-.bg-team{
+.bg-team {
   background-image: url('../images/bg.jpg');
   background-size: cover;
   background-position: center;
   padding: 0;
 }
 
-.section-team-area{
-  background-color: rgba(0, 0, 0,0.8);
+.section-team-area {
+  background-color: rgba(0, 0, 0, 0.8);
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.section-team{
+.section-team {
   overflow: hidden;
-  max-width: 880px ;
+  max-width: 880px;
   margin: auto;
 }
 
-.section-team .sliders{
-  width:1000vw ;
+.section-team .sliders {
+  width: 1000vw;
   height: 100%;
 }
 
-.section-team .slide{
+.section-team .slide {
   width: 280px;
   min-height: 300px;
   display: inline-block;
@@ -385,17 +403,17 @@ header{
   margin-right: 20px;
 }
 
-.section-team .slidearea{
+.section-team .slidearea {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #000; 
+  color: #000;
   height: 100%;
   padding: 20px;
 }
 
-.section-team-area .sliders-pointers{
+.section-team-area .sliders-pointers {
   margin-top: 30px;
   height: 20px;
   display: flex;
@@ -403,7 +421,7 @@ header{
   align-items: center;
 }
 
-.section-team-area .pointer{
+.section-team-area .pointer {
   height: 15px;
   width: 15px;
   border: 2px solid #b28756;
@@ -413,34 +431,34 @@ header{
   cursor: pointer;
 }
 
-.section-team-area .pointer.active{
+.section-team-area .pointer.active {
   background-color: #b28756;
 }
 
-.section-team--avatar{
-width: 150px;
-height: auto;
+.section-team--avatar {
+  width: 150px;
+  height: auto;
 }
 
-.section-team--name{
+.section-team--name {
   font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 25px;
 }
 
-.section-team--role{
+.section-team--role {
   font-size: 14px;
   margin-top: 5px;
   color: #999;
 }
 
-.section-team--social{
+.section-team--social {
   display: flex;
   margin-top: 20px;
 }
 
-.section-team--social a{
+.section-team--social a {
   width: 25px;
   height: 25px;
   display: inline-flex;
@@ -452,62 +470,65 @@ height: auto;
   margin-right: 10px;
 }
 
-.section-team--social a:hover{
+.section-team--social a:hover {
   background-color: #b28756;
 }
 
 
 /*CSS ESPECIFICO CLIENTS */
 
-.clients{
-background-color: #f7f7f7;
+.default.light.clients {
+  background-color: #ededed;
 }
-.section-clients{
+
+.section-clients {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
 
-.section-client--avatar{
+.section-client--avatar {
   width: 150px;
-  height: auto; 
+  height: auto;
 }
 
-.section-client--name{
+.section-client--name {
   font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 25px;
 }
 
-.section-client--role{
+.section-client--role {
   font-size: 14px;
   font-weight: 400;
   margin-top: 5px;
   color: #000;
 }
-.section-clients img{
+
+.section-clients img {
   margin: 20px;
 }
 
-.section-client--testimonial{
+.section-client--testimonial {
   max-width: 880px;
   margin: auto;
   text-align: center;
   line-height: 25px;
 }
-.clients .sliders-pointers{
+
+.clients .sliders-pointers {
   margin-top: 30px;
   height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 
-.clients .pointer{
+.clients .pointer {
   height: 15px;
   width: 15px;
   border: 2px solid #b28756;
@@ -517,7 +538,7 @@ background-color: #f7f7f7;
   cursor: pointer;
 }
 
-.clients .pointer.active{
+.clients .pointer.active {
   background-color: #b28756;
 }
 
@@ -526,12 +547,12 @@ background-color: #f7f7f7;
 
 /*CSS ESPECIFICO PARA BRANDS */
 
-.brands{
+.default.light.brands {
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
 }
 
-.brands .section-body{
+.brands .section-body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -539,14 +560,31 @@ background-color: #f7f7f7;
   margin: auto;
 }
 
-.brands .brand{
-  margin:0px 25px;
+.brands .brand {
+  margin: 0px 25px;
 }
 
 /*CSS AREA ESPECIFICA PRICES */
 
-.section-price{
+.default.light.price{
+  background-color: #ededed;
+}
+.section-price {
   overflow: hidden;
-  max-width: 880px;
+  max-width: 980px;
   margin: auto;
+}
+
+.section-price .prices {
+  width: 1140px;
+  height: 100%;
+  align-items: center;
+}
+
+.section-price .price {
+  width: 230px;
+  min-height: 300px;
+  display: inline-block;
+  background-color: #fff;
+  margin-right: 20px;
 }
