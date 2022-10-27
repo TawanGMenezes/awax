@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,user-scalable=0">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <title>Awax</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +20,7 @@
         </div>
       </div>
       <div class="menu">
+        <img class="menu-opener" src="assets/images/menu.png" alt="">
         <nav>
           <ul>
             <li class="active"><a href="">Home</a></li>
@@ -528,19 +529,16 @@
       <div class="section-desc">Our Agency located in melbourne, Australia</div>
       <div class="section-body contact">
         <div class="section-contact">
-          <form class="formulario" action="">
-
-            <input type="text" name="" id="name" placeholder="Nome">
-
-            <input type="email" name="" id="email" placeholder="Email">
-
-            <input type="text" name="" id="subject" placeholder="Subject">
-
-            <input type="text" name="" id="menssage" placeholder="Menssage">
-
-          </form>
+          <form method="POST">
+            <div class="section-contact--split">
+                <input type="text" name="name" placeholder="NAME" />
+                <input type="text" name="name" placeholder="EMAIL" />
+            </div>
+            <input type="text" name="name" placeholder="SUBJECT" />
+            <textarea name="message" placeholder="MESSAGE"></textarea>
+            <input type="submit" value="Send Message" class="butom" />
+        </form>
         </div>
-        <a href="" class="butom">Send Menssage</a>
       </div>
     </section>
     <section class="section-map">
