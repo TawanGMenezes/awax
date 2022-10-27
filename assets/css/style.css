@@ -533,8 +533,6 @@ header {
 }
 
 
-
-
 /*CSS ESPECIFICO PARA BRANDS */
 
 .default.light.brands {
@@ -637,10 +635,6 @@ header {
 }
 
 
-
-
-
-
 /* CSS ESPÉCIFICOS BOOKS */
 
 .section-body.books{
@@ -698,7 +692,6 @@ header {
 .books .pointer.active {
   background-color: #b28756;
 }
-
 
 
  /* CSS ESPECIFICO SOME FACTS */
@@ -1195,8 +1188,6 @@ margin-bottom: 20px;
 .section-aboutus{
   flex-direction: column;
 }
-
-
 
 .section-aboutus--left{
   display: flex;
