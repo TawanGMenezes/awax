@@ -695,37 +695,7 @@ header {
 .books .pointer.active {
   background-color: #b28756;
 }
-/* 
-.section-books--content{
-  border-bottom: 1px solid #d8d8d8;
-  padding-bottom: 40px;
-}
 
-.books .sliders-pointers {
-  margin-top: 30px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
-.books .pointer {
-  height: 15px;
-  width: 15px;
-  border: 2px solid #b28756;
-  border-radius: 8px;
-  margin-left: 5px;
-  margin-right: 5px;
-  cursor: pointer;
-}
-
-.books .pointer.active {
-  background-color: #b28756;
-}
-
- */
 
 
  /* CSS ESPECIFICO SOME FACTS */
@@ -832,8 +802,7 @@ justify-content: center;
 .section-contact form{
   display: flex;
   flex-wrap: wrap;
-  
-  
+ 
 }
 
 .section-contact .formulario input[placeholder]{
@@ -862,3 +831,50 @@ justify-content: center;
   margin-top: 40px;
 }
 
+/* CSS ESPECIFICO MAPA */
+
+.section-map{
+  background-image: url('../images/mapa.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-map--area{
+  width: 100vw;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.section-map--info{
+  width: 50%;
+  padding: 30px;
+  background-color: #fff;
+  color: #000;
+
+}
+
+.section-map--info-item{
+  display: flex;
+  align-items: center;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.section-map--info-item-img{
+  width:30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #999;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.section-map--info-item-img img{
+  width: 20px;
+  height: auto;
+}
